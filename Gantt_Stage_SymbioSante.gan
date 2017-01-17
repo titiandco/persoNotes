@@ -5,13 +5,13 @@ techno :
 - front end 
 ]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="48" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="25" order="1"/>
+        <field id="tpd3" name="Nombre" width="68" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="5" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="25" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="70" order="0"/>
-        <field id="1" name="Función" width="29" order="1"/>
+        <field id="0" name="Nombre" width="52" order="0"/>
+        <field id="1" name="Función" width="47" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -37,12 +37,17 @@ techno :
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="présentation du projet  MCompta" color="#8cb6ce" meeting="false" start="2016-11-14" duration="1" complete="0" expand="true"/>
+        <task id="0" name="Présentation du projet  MCompta" color="#8cb6ce" meeting="false" start="2016-11-14" duration="1" complete="0" expand="true"/>
         <task id="1" name="Demarrage du projet de stage" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
+        <task id="7" name="Etude du schema fonctionnel" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
+        <task id="8" name="Creation du diagramme de GANTT" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
         <task id="2" name="Assimilation de l'environnement de programmation" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
         <task id="4" name="Elaboration maquettage page web" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
         <task id="5" name="Elaboration use case" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
         <task id="6" name="Elaboration etat transition" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
+        <task id="9" name="Utilisation du Kick Starter et prise en main des premiers modules" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
+        <task id="10" name="Mise en application des premieres consignes de développement" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
+        <task id="11" name="programmation" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Thierry ALBAREDA" function="SoftwareDevelopment:2" contacts="thierryalbareda@hotmail.com" phone=""/>
@@ -57,8 +62,8 @@ techno :
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="270" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="145" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="383" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="32" visible="true"/>
         <displaycolumn property-id="tpd5" order="2" width="144" visible="true"/>
         <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
