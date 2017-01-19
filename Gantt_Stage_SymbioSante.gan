@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Stage_en_entrerpise_SymbioSanté_Logiciels_MCompta" company="formation AFPA Stagiaire Thierry ALBAREDA" webLink="http://" view-date="2016-10-16" view-index="0" gantt-divider-location="646" resource-divider-location="300" version="2.8.1" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Stage_en_entrerpise_SymbioSanté_Logiciels_MCompta" company="formation AFPA Stagiaire Thierry ALBAREDA" webLink="http://" view-date="2016-05-29" view-index="1" gantt-divider-location="646" resource-divider-location="300" version="2.8.1" locale="en_US">
     <description><![CDATA[webApp et App de comptabilité SaaS multi entreprises et groupe d'entreprise
 techno : 
 - NODE JS serveur
 - front end 
 ]]></description>
-    <view zooming-state="default:7" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Name" width="492" order="0"/>
         <field id="tpd4" name="Begin date" width="63" order="1"/>
         <field id="tpd5" name="End date" width="87" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="148" order="0"/>
-        <field id="1" name="Default role" width="148" order="1"/>
+        <field id="0" name="Name" width="192" order="0"/>
+        <field id="1" name="Default role" width="104" order="1"/>
     </view>
     <!-- -->
     <calendars>
