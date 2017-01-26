@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Stage_en_entrerpise_SymbioSanté_Logiciels_MCompta" company="formation AFPA Stagiaire Thierry ALBAREDA" webLink="http://" view-date="2016-11-06" view-index="0" gantt-divider-location="646" resource-divider-location="300" version="2.8.1" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Stage_en_entrerpise_SymbioSanté_Logiciels_MCompta" company="formation AFPA Stagiaire Thierry ALBAREDA" webLink="http://" view-date="2016-03-01" view-index="0" gantt-divider-location="646" resource-divider-location="300" version="2.8.1" locale="en_US">
     <description><![CDATA[webApp et App de comptabilité SaaS multi entreprises et groupe d'entreprise
 techno : 
 - NODE JS serveur
 - front end 
 ]]></description>
-    <view zooming-state="default:7" id="gantt-chart">
+    <view zooming-state="default:10" id="gantt-chart">
         <field id="tpd3" name="Name" width="253" order="0"/>
         <field id="tpd4" name="Begin date" width="195" order="1"/>
         <field id="tpd5" name="End date" width="194" order="2"/>
@@ -53,9 +53,9 @@ techno :
         <task id="15" name="Mise en service du versionning GIT HUB" color="#6666ff" meeting="false" start="2016-11-30" duration="43" complete="0" expand="true"/>
         <task id="11" name="Debut programmation Front End" color="#6666ff" meeting="false" start="2016-11-30" duration="43" complete="0" expand="true"/>
         <task id="14" name="Développement HTML, CSS, RESPONSIVE" color="#6666ff" meeting="false" start="2016-12-01" duration="42" complete="0" expand="true"/>
-        <task id="12" name="Debut programmation Back End" color="#6666ff" meeting="false" start="2016-12-05" duration="40" complete="0" expand="true"/>
+        <task id="12" name="Debut programmation Back End" color="#6666ff" meeting="false" start="2016-12-15" duration="32" complete="0" expand="true"/>
         <task id="13" name="Implémentation méthode CRUD de plusieurs tables" color="#6666ff" meeting="false" start="2016-12-07" duration="38" complete="0" expand="true"/>
-        <task id="16" name="Tests fonctionnels" meeting="false" start="2016-11-07" duration="1" complete="0" expand="true"/>
+        <task id="16" name="Tests fonctionnels" color="#8cb6ce" meeting="false" start="2017-01-18" duration="8" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Thierry ALBAREDA" function="SoftwareDevelopment:2" contacts="thierryalbareda@hotmail.com" phone=""/>
@@ -66,10 +66,16 @@ techno :
         <resource id="5" name="Robin stagiaire EPITECH" function="SoftwareDevelopment:2" contacts="" phone=""/>
     </resources>
     <allocations>
+        <allocation task-id="11" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="1" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
