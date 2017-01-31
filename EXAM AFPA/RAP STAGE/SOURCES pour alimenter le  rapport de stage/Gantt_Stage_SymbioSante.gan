@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Stage_en_entrerpise_SymbioSanté_Logiciels_MCompta" company="formation AFPA Stagiaire Thierry ALBAREDA" webLink="http://" view-date="2016-03-01" view-index="0" gantt-divider-location="646" resource-divider-location="300" version="2.8.1" locale="en_US">
+    <description><![CDATA[webApp et App de comptabilité SaaS multi entreprises et groupe d'entreprise
+techno : 
+- NODE JS serveur
+- front end 
+]]></description>
+    <view zooming-state="default:10" id="gantt-chart">
+        <field id="tpd3" name="Name" width="253" order="0"/>
+        <field id="tpd4" name="Begin date" width="195" order="1"/>
+        <field id="tpd5" name="End date" width="194" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="148" order="0"/>
+        <field id="1" name="Default role" width="148" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Présentation du projet  MCompta" color="#8cb6ce" meeting="false" start="2016-11-14" duration="1" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="Demarrage du projet de stage" color="#6666ff" meeting="false" start="2016-11-15" duration="54" complete="0" expand="true"/>
+        <task id="7" name="Etude du schema fonctionnel" color="#6666ff" meeting="false" start="2016-11-15" duration="1" complete="0" expand="true"/>
+        <task id="8" name="Creation du diagramme de GANTT" color="#6666ff" meeting="false" start="2016-11-30" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Assimilation de l'environnement de programmation" color="#6666ff" meeting="false" start="2016-11-17" duration="4" complete="0" expand="true"/>
+        <task id="4" name="Etude maquettage page web" color="#6666ff" meeting="false" start="2016-11-21" duration="2" complete="0" expand="true">
+            <task id="5" name="Elaboration use case" color="#6666ff" meeting="false" start="2016-11-21" duration="2" complete="0" expand="true"/>
+            <task id="6" name="Elaboration etat transition" color="#6666ff" meeting="false" start="2016-11-21" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="9" name="Utilisation du Kick Starter et prise en main des premiers modules" color="#6666ff" meeting="false" start="2016-11-23" duration="3" complete="0" expand="true"/>
+        <task id="10" name="Mise en application des premieres consignes de développement" color="#6666ff" meeting="false" start="2016-11-30" duration="43" complete="0" expand="true"/>
+        <task id="15" name="Mise en service du versionning GIT HUB" color="#6666ff" meeting="false" start="2016-11-30" duration="43" complete="0" expand="true"/>
+        <task id="11" name="Debut programmation Front End" color="#6666ff" meeting="false" start="2016-11-30" duration="43" complete="0" expand="true"/>
+        <task id="14" name="Développement HTML, CSS, RESPONSIVE" color="#6666ff" meeting="false" start="2016-12-01" duration="42" complete="0" expand="true"/>
+        <task id="12" name="Debut programmation Back End" color="#6666ff" meeting="false" start="2016-12-15" duration="32" complete="0" expand="true"/>
+        <task id="13" name="Implémentation méthode CRUD de plusieurs tables" color="#6666ff" meeting="false" start="2016-12-07" duration="38" complete="0" expand="true"/>
+        <task id="16" name="Tests fonctionnels" color="#8cb6ce" meeting="false" start="2017-01-18" duration="8" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Thierry ALBAREDA" function="SoftwareDevelopment:2" contacts="thierryalbareda@hotmail.com" phone=""/>
+        <resource id="1" name="Gilles" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="2" name="Erwan" function="Default:1" contacts="" phone=""/>
+        <resource id="3" name="Julie" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="4" name="Hugo stagiaire EPITECH" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="5" name="Robin stagiaire EPITECH" function="SoftwareDevelopment:2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="11" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
